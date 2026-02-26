@@ -1,7 +1,7 @@
 import os
 
 # NCBI Entrez requires an email address to track API usage.
-ENTREZ_EMAIL = "info.me.albert@gmail.com"
+ENTREZ_EMAIL = "example@gmail.com"
 
 # Define base directory (assuming config.py is in the root of your project)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
