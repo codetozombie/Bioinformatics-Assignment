@@ -9,3 +9,19 @@
 23:17:52 [INFO] Consensus generated: 1272 residues (threshold=70%, skipped=210 cols, ambiguous=1219)
 23:17:52 [INFO] Consensus generated: 1272 residues (threshold=80%, skipped=210 cols, ambiguous=1220)
 23:17:52 [INFO] Consensus generated: 1272 residues (threshold=90%, skipped=210 cols, ambiguous=1220)
+00:16:27 [INFO] Successfully loaded 4 sequences for MSA
+00:16:27 [WARNING] Tool 'clustalw2' NOT found on PATH.
+00:16:27 [WARNING] Tool 'mafft' NOT found on PATH.
+00:16:27 [WARNING] Tool 'muscle' NOT found on PATH.
+00:16:27 [WARNING] Tool 'hmmbuild' NOT found on PATH.
+00:16:27 [WARNING] Tool 'hmmsearch' NOT found on PATH.
+00:16:27 [INFO] Written 4 sequences → c:\Users\infom\Desktop\bioinfo\ass1\data\processed\msa_input_demo.fasta
+00:16:27 [INFO] Consensus generated: 1272 residues (threshold=50%, skipped=210 cols, ambiguous=95)
+00:16:27 [INFO] Consensus generated: 1272 residues (threshold=60%, skipped=210 cols, ambiguous=1219)
+00:16:27 [INFO] Consensus generated: 1272 residues (threshold=70%, skipped=210 cols, ambiguous=1219)
+00:16:27 [INFO] Consensus generated: 1272 residues (threshold=80%, skipped=210 cols, ambiguous=1220)
+00:16:27 [INFO] Consensus generated: 1272 residues (threshold=90%, skipped=210 cols, ambiguous=1220)
+00:16:27 [INFO] Consensus sequences saved (5 record(s)) → c:\Users\infom\Desktop\bioinfo\ass1\data\processed\consensus_demo.fasta
+00:16:29 [INFO] Figure saved → c:\Users\infom\Desktop\bioinfo\ass1\results\figures\conservation_mock.png
+00:16:31 [INFO] Figure saved → c:\Users\infom\Desktop\bioinfo\ass1\results\figures\msa_heatmap_mock.png
+00:16:31 [INFO] Alignment saved (1 record(s)) → c:\Users\infom\Desktop\bioinfo\ass1\results\alignments\mock_alignment.fasta
