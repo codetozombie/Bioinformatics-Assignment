@@ -1,0 +1,98 @@
+# =========================================
+# DCIT 411 Pairwise Alignment Output
+# Student : Amoako Albert | 11227686
+# Seq1    : NP_000549.1
+# Seq2    : NP_001009042.1
+# Score   : -465.00
+# Identity: 12.50%
+# Gaps    : 71.25%
+# Length  : 80
+# =========================================
+
+target            0 MVL---------------------------------------------------------
+                  0 |.|---------------------------------------------------------
+query             0 MDLFDFFRDWDLEQQCHYEQDRSALKKREWERRNQEVQQEDDLFSSGFDLFGEPYKTNKG
+
+target            3 --------------------------------------------------SPADKTNV--
+                 60 --------------------------------------------------.|..|...--
+query            60 DALANRVQNTLGNYDEMKDLLTNHSNQNHLVGIPKNSVPQNPNNKNEPSFFPEQKNRIIP
+
+target           11 -------------------------------KAAW-------------------------
+                120 -------------------------------|..|-------------------------
+query           120 PHQDNTHPSAPMPPPSVVILNSTLIHSNRKSKPEWSRDSHNPSTVLASQASGQPNKMQTL
+
+target           15 -------------------------------GKVGAHAGEYGAEALERMF----------
+                180 -------------------------------.|........|..|....|----------
+query           180 TQDQSQAKLEDFFVYPAEQPQIGEAEESNPSAKEDSNPNSSGEDAFKEIFQSNSPEESEF
+
+target           34 ------------------------------------------------------------
+                240 ------------------------------------------------------------
+query           240 AVQAPGSPLVASSLLAPSSGLSVQNFPPGLYCKTSMGQQKPTAYVRPMDGQDQAPDISPT
+
+target           34 -------------LSFPT----------TKTYFPHFDL----------------------
+                300 -------------|||.|----------.||..|.|..----------------------
+query           300 LKPSIEFENSFGNLSFGTLLDGKPSAASSKTKLPKFTILQTSEVSLPSDPSCVEEILRES
+
+target           49 ------------------------------------------------------------
+                360 ------------------------------------------------------------
+query           360 QHLTPGFTLQKWNDPTTRASTKMLEDDLKLSSDEDDLEPVKTLTTQCTATELYQAVEKAK
+
+target           49 ---------------------SHGS-----------------------------------
+                420 ---------------------|.||-----------------------------------
+query           420 PRNNPVNPPLATPQPPPAVQASGGSGSSSESESSSESDSDTESSTTDSESNEAPRVATPE
+
+target           53 ---------------------------------------------------------AQV
+                480 ---------------------------------------------------------.||
+query           480 PEPPSTNKWQLDKWLNKVTSQNKSFICGQNETPMETISLPPPIIQPMEVQMKVKTNASQV
+
+target           56 KGHGK------------------KVADALTNAVAH-------------------------
+                540 ....|------------------|...--|.|..|-------------------------
+query           540 PAEPKERPLLSLIREKARPRPTQKIPE--TKALKHKLSTTSETVSQRTIGKKQPKKVEKN
+
+target           73 --VDDM----PNALSALS------DLH----------AHK--LRVDP-------------
+                600 --.|..----||..|...------.||----------|||--.|..|-------------
+query           598 TSIDEFTWPKPNITSSTPKEKESVELHDPPRGRNKATAHKPAPRKEPRPNIPLAPEKKKY
+
+target           96 ------------------------------VNFKLLSHCLL---------------VTLA
+                660 ------------------------------...|.|..|..---------------.||.
+query           658 RGPGKIVPKSREFIETDSSTSDSNTDQEETLQIKVLPPCIISGGNTAKSKEICGASLTLS
+
+target          111 A-----------------------------------------------------------
+                720 .-----------------------------------------------------------
+query           718 TLMSSSGSNNNLSISNEEPTFSPIPVMQTEMLSPLRDHENLKNLWVKIDLDLLSRVPGHN
+
+target          112 -------------------------------------HLPAE------------------
+                780 -------------------------------------|.|.|------------------
+query           778 SLHAAPAKPDHKETATKPKRQTALTAVEKPAPKGKRKHKPTEVAEKIPEKKQRLEEATTI
+
+target          117 ------------------------------------------------------------
+                840 ------------------------------------------------------------
+query           838 CLLPPCISPAPPHKPPNTRENNSSRRANRRKEEKLFPPPLSPLPEDPPRRRNVSGNNGPF
+
+target          117 ------------------------------------------------------------
+                900 ------------------------------------------------------------
+query           898 GQDKNIAMTGQITSTKPKRTEGKFCATFKGISVNEGDTPKKASSATITVTNTAIATATVT
+
+target          117 ------------------------------------------------------------
+                960 ------------------------------------------------------------
+query           958 ATAIVTTTVTATATATATTTTTTTTISTITSTITTGLMDSSHLEMTSWAALPLLSSSSTN
+
+target          117 -------FTPAVH-----------------ASLDKF------------------------
+               1020 -------|...||-----------------|...||------------------------
+query          1018 VRRPKLTFDDSVHNADYYMQEAKKLKHKADALFEKFGKAVNYADAALSFTECGNAMERDP
+
+target          129 ------------------------------------------------------------
+               1080 ------------------------------------------------------------
+query          1078 LEAKSPYTMYSETVELLRYAMRLKNFASPLASDGDKKLAVLCYRCLSLLYLRMFKLKKDH
+
+target          129 --------------------------------------LASVSTV---------------
+               1140 --------------------------------------|..||..---------------
+query          1138 AMKYSRSLMEYFKQNASKVAQIPSPWVGNGKNTPSPVSLNNVSPINAMGNCNNGPVTIPQ
+
+target          136 ----------------------------------------------------LTSKYR--
+               1200 ----------------------------------------------------.|...|--
+query          1198 RIHHMAASHVNITSNVLRGYEHWDMADKLTRENKEFFGDLDTLMGPLTQHSSMTNLVRYV
+
+target          142 --------------  142
+               1260 -------------- 1274
+query          1258 RQGLCWLRIDAHLL 1272

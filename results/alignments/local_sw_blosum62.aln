@@ -1,0 +1,14 @@
+# =========================================
+# DCIT 411 Pairwise Alignment Output
+# Student : Amoako Albert | 11227686
+# Seq1    : NP_000549.1
+# Seq2    : NP_001009042.1
+# Score   : 38.00
+# Identity: 44.07%
+# Gaps    : 1.69%
+# Length  : 59
+# =========================================
+
+target           46 FDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALS 82
+                  0 |||-.|.......|...|....|.....|.|...|. 36
+query            47 FDL-FGEPYKTNKGDALANRVQNTLGNYDEMKDLLT 82

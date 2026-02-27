@@ -1,0 +1,11 @@
+23:17:52 [INFO] Successfully loaded 4 sequences for MSA
+23:17:52 [WARNING] Tool 'clustalw2' NOT found on PATH.
+23:17:52 [WARNING] Tool 'mafft' NOT found on PATH.
+23:17:52 [WARNING] Tool 'muscle' NOT found on PATH.
+23:17:52 [WARNING] Tool 'hmmbuild' NOT found on PATH.
+23:17:52 [WARNING] Tool 'hmmsearch' NOT found on PATH.
+23:17:52 [INFO] Consensus generated: 1272 residues (threshold=50%, skipped=210 cols, ambiguous=95)
+23:17:52 [INFO] Consensus generated: 1272 residues (threshold=60%, skipped=210 cols, ambiguous=1219)
+23:17:52 [INFO] Consensus generated: 1272 residues (threshold=70%, skipped=210 cols, ambiguous=1219)
+23:17:52 [INFO] Consensus generated: 1272 residues (threshold=80%, skipped=210 cols, ambiguous=1220)
+23:17:52 [INFO] Consensus generated: 1272 residues (threshold=90%, skipped=210 cols, ambiguous=1220)

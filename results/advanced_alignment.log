@@ -1,0 +1,8 @@
+23:55:33 [INFO] Structural schematic saved → 'c:\Users\infom\Desktop\bioinfo\ass1\results\figures\structural_alignment_demo.png'
+23:55:33 [INFO] Advanced consensus: 61 residues | conserved=44 | ambiguous=17 | skipped=0
+23:55:33 [INFO] Consensus sequences saved (1 record(s)) → c:\Users\infom\Desktop\bioinfo\ass1\data\processed\advanced_consensus_demo.fasta
+23:55:34 [INFO] Entropy/conservation plot saved → 'c:\Users\infom\Desktop\bioinfo\ass1\results\figures\entropy_conservation.png'
+00:01:48 [INFO] Structural schematic saved → 'c:\Users\infom\Desktop\bioinfo\ass1\results\figures\structural_alignment_demo.png'
+00:01:49 [INFO] Advanced consensus: 61 residues | conserved=44 | ambiguous=17 | skipped=0
+00:01:49 [INFO] Consensus sequences saved (1 record(s)) → c:\Users\infom\Desktop\bioinfo\ass1\data\processed\advanced_consensus_demo.fasta
+00:01:49 [INFO] Entropy/conservation plot saved → 'c:\Users\infom\Desktop\bioinfo\ass1\results\figures\entropy_conservation.png'
