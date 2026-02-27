@@ -25,3 +25,169 @@
 00:16:29 [INFO] Figure saved → c:\Users\infom\Desktop\bioinfo\ass1\results\figures\conservation_mock.png
 00:16:31 [INFO] Figure saved → c:\Users\infom\Desktop\bioinfo\ass1\results\figures\msa_heatmap_mock.png
 00:16:31 [INFO] Alignment saved (1 record(s)) → c:\Users\infom\Desktop\bioinfo\ass1\results\alignments\mock_alignment.fasta
+01:23:30 [INFO] Successfully loaded 4 sequences for MSA
+01:23:30 [WARNING] Tool 'clustalw2' NOT found on PATH.
+01:23:30 [INFO] Tool 'mafft' is available ✓
+01:23:30 [INFO] Tool 'muscle' is available ✓
+01:23:30 [INFO] Tool 'hmmbuild' is available ✓
+01:23:30 [INFO] Tool 'hmmsearch' is available ✓
+01:23:30 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:23:30 [INFO] Tool 'mafft' is available ✓
+01:23:30 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:23:31 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:23:31 [INFO] Tool 'muscle' is available ✓
+01:23:31 [INFO] Running MUSCLE: muscle -in /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta -maxiters 16
+01:23:31 [ERROR] MUSCLE failed: MUSCLE failed:
+
+
+Invalid command line
+Unknown option in
+
+
+01:23:31 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:23:31 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:23:31 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:23:31 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:23:31 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:23:31 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:23:33 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/conservation_mafft.png
+01:23:34 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/msa_heatmap_mafft.png
+01:23:34 [INFO] Alignment saved (1 record(s)) → /home/codetozombie/code/bioinfo/results/alignments/mafft_alignment.fasta
+01:28:33 [INFO] Successfully loaded 4 sequences for MSA
+01:28:33 [WARNING] Tool 'clustalw2' NOT found on PATH.
+01:28:34 [INFO] Tool 'mafft' is available ✓
+01:28:34 [INFO] Tool 'muscle' is available ✓
+01:28:34 [INFO] Tool 'hmmbuild' is available ✓
+01:28:34 [INFO] Tool 'hmmsearch' is available ✓
+01:28:34 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:28:34 [INFO] Tool 'mafft' is available ✓
+01:28:34 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:28:36 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:28:36 [INFO] Tool 'muscle' is available ✓
+01:28:36 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta
+01:28:37 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:28:37 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:28:37 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:28:37 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:28:37 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:28:37 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:28:37 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:28:37 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:28:37 [WARNING] Tool 'clustalw2' NOT found on PATH.
+01:28:37 [ERROR] ClustalW FAILED: ClustalW not found. Install with: sudo apt-get install clustalw
+01:28:38 [INFO] Tool 'mafft' is available ✓
+01:28:38 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:28:39 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:28:39 [INFO] Tool 'muscle' is available ✓
+01:28:39 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_muscle.fasta
+01:28:41 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:28:41 [INFO] Benchmark CSV saved → /home/codetozombie/code/bioinfo/results/metrics/msa_benchmarks.csv
+01:28:43 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/benchmark_comparison.png
+01:28:47 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/conservation_mafft.png
+01:28:49 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/msa_heatmap_mafft.png
+01:28:49 [INFO] Alignment saved (1 record(s)) → /home/codetozombie/code/bioinfo/results/alignments/mafft_alignment.fasta
+01:28:52 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/conservation_muscle.png
+01:28:57 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/msa_heatmap_muscle.png
+01:28:57 [INFO] Alignment saved (1 record(s)) → /home/codetozombie/code/bioinfo/results/alignments/muscle_alignment.fasta
+01:35:17 [INFO] Successfully loaded 4 sequences for MSA
+01:35:17 [INFO] Tool 'clustalw' is available ✓
+01:35:18 [INFO] Tool 'mafft' is available ✓
+01:35:18 [INFO] Tool 'muscle' is available ✓
+01:35:18 [INFO] Tool 'hmmbuild' is available ✓
+01:35:18 [INFO] Tool 'hmmsearch' is available ✓
+01:35:18 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:35:18 [INFO] Tool 'mafft' is available ✓
+01:35:18 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:35:19 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:35:19 [INFO] Tool 'muscle' is available ✓
+01:35:19 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta
+01:35:19 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:35:19 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:35:19 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:35:19 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:35:19 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:35:19 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:35:19 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:35:19 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:35:19 [INFO] Tool 'clustalw' is available ✓
+01:38:44 [INFO] Successfully loaded 4 sequences for MSA
+01:38:44 [INFO] Tool 'clustalw' is available ✓
+01:38:44 [INFO] Tool 'mafft' is available ✓
+01:38:44 [INFO] Tool 'muscle' is available ✓
+01:38:44 [INFO] Tool 'hmmbuild' is available ✓
+01:38:44 [INFO] Tool 'hmmsearch' is available ✓
+01:38:44 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:38:44 [INFO] Tool 'mafft' is available ✓
+01:38:44 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:38:45 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:38:45 [INFO] Tool 'muscle' is available ✓
+01:38:45 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta
+01:38:45 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:38:46 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:38:46 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:38:46 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:38:46 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:38:46 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:38:46 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:38:46 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:38:46 [INFO] Tool 'clustalw' is available ✓
+01:38:46 [INFO] Running ClustalW: clustalw -infile=/home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta -outfile=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.aln -newtree=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.dnd -outorder=aligned
+01:43:30 [INFO] Successfully loaded 4 sequences for MSA
+01:43:30 [INFO] Tool 'clustalw' is available ✓
+01:43:30 [INFO] Tool 'mafft' is available ✓
+01:43:30 [INFO] Tool 'muscle' is available ✓
+01:43:30 [INFO] Tool 'hmmbuild' is available ✓
+01:43:30 [INFO] Tool 'hmmsearch' is available ✓
+01:43:30 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:43:30 [INFO] Tool 'mafft' is available ✓
+01:43:30 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:43:31 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:43:31 [INFO] Tool 'muscle' is available ✓
+01:43:31 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta
+01:43:31 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:43:32 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:43:32 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:43:32 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:43:32 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:43:32 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:43:32 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:43:32 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:43:32 [INFO] Tool 'clustalw' is available ✓
+01:43:32 [INFO] Running ClustalW: clustalw -infile=/home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta -outfile=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.aln -newtree=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.dnd -outorder=aligned
+01:48:43 [INFO] Successfully loaded 4 sequences for MSA
+01:48:43 [INFO] Tool 'clustalw' is available ✓
+01:48:43 [INFO] Tool 'mafft' is available ✓
+01:48:43 [INFO] Tool 'muscle' is available ✓
+01:48:43 [INFO] Tool 'hmmbuild' is available ✓
+01:48:43 [INFO] Tool 'hmmsearch' is available ✓
+01:48:43 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:48:43 [INFO] Tool 'mafft' is available ✓
+01:48:43 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta
+01:48:44 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:48:44 [INFO] Tool 'muscle' is available ✓
+01:48:44 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_input_demo.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_input_demo_muscle.fasta
+01:48:45 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:48:45 [INFO] Consensus generated: 1118 residues (threshold=50%, skipped=529 cols, ambiguous=32)
+01:48:45 [INFO] Consensus generated: 1118 residues (threshold=60%, skipped=529 cols, ambiguous=879)
+01:48:45 [INFO] Consensus generated: 1118 residues (threshold=70%, skipped=529 cols, ambiguous=882)
+01:48:45 [INFO] Consensus generated: 1118 residues (threshold=80%, skipped=529 cols, ambiguous=908)
+01:48:45 [INFO] Consensus generated: 1118 residues (threshold=90%, skipped=529 cols, ambiguous=908)
+01:48:45 [INFO] Consensus sequences saved (5 record(s)) → /home/codetozombie/code/bioinfo/data/processed/consensus_demo.fasta
+01:48:45 [INFO] Written 4 sequences → /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:48:45 [INFO] Tool 'clustalw' is available ✓
+01:48:45 [INFO] Running ClustalW: clustalw -INFILE=/home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta -ALIGN -OUTFILE=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.aln -OUTPUT=CLUSTAL -NEWTREE=/home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_clustalw.dnd -OUTORDER=ALIGNED
+01:48:45 [INFO] ClustalW complete: 4 seqs, 1483 columns
+01:48:46 [INFO] Tool 'mafft' is available ✓
+01:48:46 [INFO] Running MAFFT: mafft --auto --out /home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_mafft.fasta /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta
+01:48:46 [INFO] MAFFT complete: 4 seqs, 1647 columns
+01:48:46 [INFO] Tool 'muscle' is available ✓
+01:48:46 [INFO] Running MUSCLE: muscle -align /home/codetozombie/code/bioinfo/data/processed/msa_benchmark_input.fasta -output /home/codetozombie/code/bioinfo/results/alignments/msa_benchmark_input_muscle.fasta
+01:48:47 [INFO] MUSCLE complete: 4 seqs, 1832 columns
+01:48:47 [INFO] Benchmark CSV saved → /home/codetozombie/code/bioinfo/results/metrics/msa_benchmarks.csv
+01:48:48 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/benchmark_comparison.png
+01:48:50 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/conservation_mafft.png
+01:48:51 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/msa_heatmap_mafft.png
+01:48:51 [INFO] Alignment saved (1 record(s)) → /home/codetozombie/code/bioinfo/results/alignments/mafft_alignment.fasta
+01:48:54 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/conservation_muscle.png
+01:48:55 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/msa_heatmap_muscle.png
+01:48:55 [INFO] Alignment saved (1 record(s)) → /home/codetozombie/code/bioinfo/results/alignments/muscle_alignment.fasta

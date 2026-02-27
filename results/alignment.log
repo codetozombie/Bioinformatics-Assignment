@@ -128,3 +128,68 @@
 00:11:47 [INFO] [GLOBAL | BLOSUM62] Score=-484.50 | Lengths: 1272 vs 147
 00:11:47 [INFO] Figure saved → c:\Users\infom\Desktop\bioinfo\ass1\results\figures\pairwise_identity_heatmap.png
 00:11:48 [INFO] Metrics saved → c:\Users\infom\Desktop\bioinfo\ass1\results\metrics\all_vs_all_metrics.csv
+01:50:06 [INFO] Loaded 4 cleaned sequence(s) from: hemoglobin_clean.fasta
+01:50:06 [INFO]   → NP_000549.1                    length=   142
+01:50:06 [INFO]   → NP_001009042.1                 length=  1272
+01:50:06 [INFO]   → NP_032246.2                    length=   147
+01:50:06 [INFO]   → NP_036706.1                    length=  1482
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-465.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Alignment saved → /home/codetozombie/code/bioinfo/results/alignments/global_nw_blosum62.aln
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [LOCAL | BLOSUM62] Score=38.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Alignment saved → /home/codetozombie/code/bioinfo/results/alignments/local_sw_blosum62.aln
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM45
+01:50:06 [INFO] [GLOBAL | BLOSUM45] Score=-389.50 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-465.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM80
+01:50:06 [INFO] [GLOBAL | BLOSUM80] Score=-256.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: PAM30
+01:50:06 [INFO] [GLOBAL | PAM30] Score=-455.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: PAM250
+01:50:06 [INFO] [GLOBAL | PAM250] Score=-392.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Metrics saved → /home/codetozombie/code/bioinfo/results/metrics/matrix_experiment.csv
+01:50:06 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/matrix_comparison.png
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=26.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-300.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-840.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-1903.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-83.20 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-415.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-966.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-2060.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-131.40 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-465.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-1021.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-2126.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-174.20 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-507.50 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-1063.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-2173.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Metrics saved → /home/codetozombie/code/bioinfo/results/metrics/gap_penalty_experiment.csv
+01:50:06 [INFO] All-vs-All: 3 sequences, 3 pairs
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-465.00 | Lengths: 142 vs 1272
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=293.50 | Lengths: 142 vs 147
+01:50:06 [INFO] Loaded substitution matrix: BLOSUM62
+01:50:06 [INFO] [GLOBAL | BLOSUM62] Score=-484.50 | Lengths: 1272 vs 147
+01:50:07 [INFO] Figure saved → /home/codetozombie/code/bioinfo/results/figures/pairwise_identity_heatmap.png
+01:50:07 [INFO] Metrics saved → /home/codetozombie/code/bioinfo/results/metrics/all_vs_all_metrics.csv

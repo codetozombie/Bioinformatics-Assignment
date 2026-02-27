@@ -1,0 +1,4 @@
+tool,time_sec,memory_mb,aln_length,conserved_cols,avg_identity
+ClustalW,0.1306,14.043,1483,304,9.33
+MAFFT,0.7754,0.066,1647,739,10.78
+MUSCLE,0.6027,0.065,1832,1039,10.1
